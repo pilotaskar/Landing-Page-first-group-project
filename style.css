@@ -23,7 +23,7 @@ body{
 }
 .top{
     /* border:1px solid blue; */
-    background-color:lightblue;
+
     grid-area:b1;
 }
 
@@ -53,12 +53,13 @@ body{
 .icon{
     grid-area: b3;
     /* border:1px solid rgb(136, 255, 0); */
-    /* background-color:lightgray; */
+    background-color:lightgray; 
 }
 .left{
     grid-area: b4;
     /* border:1px solid rgb(255, 94, 0); */
-    background-color:lightyellow;
+    background-color:white;
+    width: 100%;
 }
 .phone{
     grid-area: b5;
@@ -122,7 +123,7 @@ body{
 .footer{
    grid-area: b12;
    /* border:1px solid blue; */
-   background-color:lightsalmon;
+   
 }
 
 .card-one {
@@ -156,4 +157,47 @@ body{
     padding: 5%;
     
 }
+
+.card-text {
+    text-align: center;
+}
+
+.firts-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    background-color: #036bfc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #0341fc;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    font-size: 50px;
+    color: #036bfc;
+}
+
 
